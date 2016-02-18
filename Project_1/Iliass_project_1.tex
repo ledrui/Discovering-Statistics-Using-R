@@ -1,218 +1,159 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Programming/Coding Assignment
-% LaTeX Template
-%
-% This template has been downloaded from:
-% http://www.latextemplates.com
-%
-% Original author:
-% Ted Pavlic (http://www.tedpavlic.com)
-%
-% Note:
-% The \lipsum[#] commands throughout this template generate dummy text
-% to fill the template out. These commands should all be removed when 
-% writing assignment content.
-%
-% This template uses a Perl script as an example snippet of code, most other
-% languages are also usable. Configure them in the "CODE INCLUSION 
-% CONFIGURATION" section.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{article}[14pt]
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{dtklogos}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{calrsfs}
+\usepackage{collectbox}
+\usepackage{blindtext}
+\newcommand{\R}{{\mathbb R}}
+\renewcommand{\vec}[1]{{\mathbf #1}}
+\newcommand{\points}[1]{\phantom{.}\hfill \textbf{(#1 points)}}
+\newcommand{\matlab}{{\textsc{Matlab}} }
 
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
-\documentclass{article}
-
-\usepackage{fancyhdr} % Required for custom headers
-\usepackage{lastpage} % Required to determine the last page for the footer
-\usepackage{extramarks} % Required for headers and footers
-\usepackage[usenames,dvipsnames]{color} % Required for custom colors
-\usepackage{graphicx} % Required to insert images
-\usepackage{listings} % Required for insertion of code
-\usepackage{courier} % Required for the courier font
-\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
-
-% Margins
-\topmargin=-0.45in
-\evensidemargin=0in
-\oddsidemargin=0in
-\textwidth=6.5in
-\textheight=9.0in
-\headsep=0.25in
-
-\linespread{1.1} % Line spacing
-
-% Set up the header and footer
-\pagestyle{fancy}
-\lhead{\hmwkAuthorName} % Top left header
-\chead{\hmwkClass\ (\hmwkClassInstructor\ \hmwkClassTime): \hmwkTitle} % Top center head
-\rhead{\firstxmark} % Top right header
-\lfoot{\lastxmark} % Bottom left footer
-\cfoot{} % Bottom center footer
-\rfoot{Page\ \thepage\ of\ \protect\pageref{LastPage}} % Bottom right footer
-\renewcommand\headrulewidth{0.4pt} % Size of the header rule
-\renewcommand\footrulewidth{0.4pt} % Size of the footer rule
-
-\setlength\parindent{0pt} % Removes all indentation from paragraphs
-
-%----------------------------------------------------------------------------------------
-%	CODE INCLUSION CONFIGURATION
-%----------------------------------------------------------------------------------------
-
-\definecolor{MyDarkGreen}{rgb}{0.0,0.4,0.0} % This is the color used for comments
-\lstloadlanguages{Perl} % Load Perl syntax for listings, for a list of other languages supported see: ftp://ftp.tex.ac.uk/tex-archive/macros/latex/contrib/listings/listings.pdf
-\lstset{language=Perl, % Use Perl in this example
-        frame=single, % Single frame around code
-        basicstyle=\small\ttfamily, % Use small true type font
-        keywordstyle=[1]\color{Blue}\bf, % Perl functions bold and blue
-        keywordstyle=[2]\color{Purple}, % Perl function arguments purple
-        keywordstyle=[3]\color{Blue}\underbar, % Custom functions underlined and blue
-        identifierstyle=, % Nothing special about identifiers                                         
-        commentstyle=\usefont{T1}{pcr}{m}{sl}\color{MyDarkGreen}\small, % Comments small dark green courier font
-        stringstyle=\color{Purple}, % Strings are purple
-        showstringspaces=false, % Don't put marks in string spaces
-        tabsize=5, % 5 spaces per tab
-        %
-        % Put standard Perl functions not included in the default language here
-        morekeywords={rand},
-        %
-        % Put Perl function parameters here
-        morekeywords=[2]{on, off, interp},
-        %
-        % Put user defined functions here
-        morekeywords=[3]{test},
-       	%
-        morecomment=[l][\color{Blue}]{...}, % Line continuation (...) like blue comment
-        numbers=left, % Line numbers on left
-        firstnumber=1, % Line numbers start with line 1
-        numberstyle=\tiny\color{Blue}, % Line numbers are blue and small
-        stepnumber=5 % Line numbers go in steps of 5
-}
-
-% Creates a new command to include a perl script, the first parameter is the filename of the script (without .pl), the second parameter is the caption
-\newcommand{\perlscript}[2]{
-\begin{itemize}
-\item[]\lstinputlisting[caption=#2,label=#1]{#1.pl}
-\end{itemize}
-}
-
-%----------------------------------------------------------------------------------------
-%	DOCUMENT STRUCTURE COMMANDS
-%	Skip this unless you know what you're doing
-%----------------------------------------------------------------------------------------
-
-% Header and footer for when a page split occurs within a problem environment
-\newcommand{\enterProblemHeader}[1]{
-\nobreak\extramarks{#1}{#1 continued on next page\ldots}\nobreak
-\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak
-}
-
-% Header and footer for when a page split occurs between problem environments
-\newcommand{\exitProblemHeader}[1]{
-\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak
-\nobreak\extramarks{#1}{}\nobreak
-}
-
-\setcounter{secnumdepth}{0} % Removes default section numbers
-\newcounter{homeworkProblemCounter} % Creates a counter to keep track of the number of problems
-
-\newcommand{\homeworkProblemName}{}
-\newenvironment{homeworkProblem}[1][Problem \arabic{homeworkProblemCounter}]{ % Makes a new environment called homeworkProblem which takes 1 argument (custom name) but the default is "Problem #"
-\stepcounter{homeworkProblemCounter} % Increase counter for number of problems
-\renewcommand{\homeworkProblemName}{#1} % Assign \homeworkProblemName the name of the problem
-\section{\homeworkProblemName} % Make a section in the document with the custom problem count
-\enterProblemHeader{\homeworkProblemName} % Header and footer within the environment
-}{
-\exitProblemHeader{\homeworkProblemName} % Header and footer after the environment
-}
-
-\newcommand{\problemAnswer}[1]{ % Defines the problem answer command with the content as the only argument
-\noindent\framebox[\columnwidth][c]{\begin{minipage}{0.98\columnwidth}#1\end{minipage}} % Makes the box around the problem answer and puts the content inside
-}
-
-\newcommand{\homeworkSectionName}{}
-\newenvironment{homeworkSection}[1]{ % New environment for sections within homework problems, takes 1 argument - the name of the section
-\renewcommand{\homeworkSectionName}{#1} % Assign \homeworkSectionName to the name of the section from the environment argument
-\subsection{\homeworkSectionName} % Make a subsection with the custom name of the subsection
-\enterProblemHeader{\homeworkProblemName\ [\homeworkSectionName]} % Header and footer within the environment
-}{
-\enterProblemHeader{\homeworkProblemName} % Header and footer after the environment
-}
-
-%----------------------------------------------------------------------------------------
-%	NAME AND CLASS SECTION
-%----------------------------------------------------------------------------------------
-
-\newcommand{\hmwkTitle}{Project\ \#1} % Assignment title
-\newcommand{\hmwkDueDate}{Monday,\ January\ 1,\ 2012} % Due date
-\newcommand{\hmwkClass}{COMPSCI\ 101} % Course/class
-\newcommand{\hmwkClassTime}{10:30am} % Class/lecture time
-\newcommand{\hmwkClassInstructor}{Jones} % Teacher/lecturer
-\newcommand{\hmwkAuthorName}{John Smith} % Your name
-
-%----------------------------------------------------------------------------------------
-%	TITLE PAGE
-%----------------------------------------------------------------------------------------
-
-\title{
-\vspace{2in}
-\textmd{\textbf{\hmwkClass:\ \hmwkTitle}}\\
-\normalsize\vspace{0.1in}\small{Due\ on\ \hmwkDueDate}\\
-\vspace{0.1in}\large{\textit{\hmwkClassInstructor\ \hmwkClassTime}}
-\vspace{3in}
-}
-
-\author{\textbf{\hmwkAuthorName}}
-\date{} % Insert date here if you want it to appear below your name
-
-%----------------------------------------------------------------------------------------
 
 \begin{document}
-
-\maketitle
-
-%----------------------------------------------------------------------------------------
-%	TABLE OF CONTENTS
-%----------------------------------------------------------------------------------------
-
-%\setcounter{tocdepth}{1} % Uncomment this line if you don't want subsections listed in the ToC
-
-\newpage
-\tableofcontents
-\newpage
-
-%----------------------------------------------------------------------------------------
-%	PROBLEM 1
-%----------------------------------------------------------------------------------------
-
-% To have just one problem per page, simply put a \clearpage after each problem
-
-\begin{homeworkProblem}
-Listing \ref{homework_example} shows a Perl script.
-
-\perlscript{homework_example}{Sample Perl Script With Highlighting}
-
-\lipsum[1]
-\end{homeworkProblem}
-
-%----------------------------------------------------------------------------------------
-%	PROBLEM 2
-%----------------------------------------------------------------------------------------
-
-\begin{homeworkProblem}
-\lipsum[2]
-
-\problemAnswer{
 \begin{center}
-\includegraphics[width=0.75\columnwidth]{example_figure} % Example image
+
+
+\title{Project 1}
+\hfill Iliass Tiendrebeogo\\
+
+\hfill \today\\
+\end{center}
+\bigskip
+
+\begin{center}
+  \begin{Large}
+      
+    Project $N^o 1$ \\
+    Math 567: Winter 2016 \\
+       
+  \end{Large}
 \end{center}
 
-\lipsum[3-5]
-}
-\end{homeworkProblem}
+\bigskip
 
-%----------------------------------------------------------------------------------------
+\begin{section}
+%\item % GOP Nat Primary
+{\bf \large 2016 National Republican Primary}
+
+\begin{enumerate}[]
+
+\item % The chart
+
+This is the graphic of 2016 GOP Primary from Feb. 2015. Trends are as follow: we have Donald Trump's trend in red curve, Ben Carson's  in orange curve, Ted Cruz's in green curve, Marco Rubio's show in purple.
+
+A quick view of the chart we can see that there are around six candidates which are still running and only three of them are  relevant. A more in depth analysis show that Donald Trump is leading the race although he got into the race late(April 2015).  He remain unknown during the first two months, before gaining  popularity at a very fast pace and keep growing until now with   $37\%$. Whereas, Ben Carson  had lead the second place with a growing popularity from August  to November where his popularity attain a pick at $ 20 \%$ and then drop bellow 10 for some reasons. And Ted Cruz,, who has his popularity below $10 \%$ flat since Feb. 2015 have started growing in popularity since November 2015, which might be cause by Ben Carson's falling and Republican need a second runner to trust. The others runners have had a pretty flat popularity which evolve around an average of $10\%$.
+
+One important thing to notice is that lot of Republican Candidates haven't drop out yet.
+
+\item {\bf \large The Script}
+
+
+\end{enumerate}
+
+\end{section}
+
+\bigskip
+\begin{section}
+%\item % Dem National Primary
+{ \bf \large 2016 National Democratic  Primary} 
+\bigskip
+\end{section}
+
+\begin{section}
+%\item % SC GOP
+{\bf \large 2016 South Carolina Republican Presidential Primary}
+\bigskip
+\end{section}
+
+\begin{section}
+%\item % Obama's Job approval
+{\bf \large President Obama's Job Approval}
+\begin{enumerate}[]
+\item {}
+
+
+The Chart bellow of Obama's job approval since the start of his Presidency shows in red the approval rate, in green the disapproval rate from late 2008 to February 2016.
+
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[width=\linewidth]{O_job_app.png}
+\end{center}
+\caption{Caption here}
+\label{fig:figure4}
+\end{figure}
+
+From late 2008 the approval rate start high at about 80 percent, while the disapproval rate start as low as about 15 percent. The approval rate begin to decrease very fast whereas, oppositely the disapproval increased also at a fast rate until early 2010. From 2010 to now those have flatten at about 50 percent with some minor up and down.
+\medspace
+
+\item {\bf The Script}
+
+The R Script used to produce this graph is shown bellow
+
+\begin{lstlisting}[language = R]
+# Creating the slug 
+slug <- "obama-job-approval" 
+# Create the chart using pollster library 
+chart <- pollstr_chart(slug)
+# Filter by date
+estimates <- chart[["estimates_by_date"]]
+# generate the plot using ggplt2
+ggplot(estimates, 
+          aes(x = date, y = value, color = choice)) + geom line()
+# Save the image into the image directory as png file 
+ggsave(file = paste(imageDirectory,"O_job_app.png",sep="/")) 
+\end{lstlisting}
+
+\end{enumerate}
+ 
+\bigskip
+\end{section}
+
+\begin{section}
+%\item % Congress Job approval
+{\bf \large Congress Job Approval}
+\begin{enumerate}[]
+\item {} %  the chart
+
+This chart bellow shows the American Congress job approval rating since the beginning of President Obama's presidency. In red is the approval rate and in green the disapproval rate.
+
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[width=\linewidth]{Congress_job_app.png}
+\end{center}
+\caption{Caption here}
+\label{fig:figure 5}
+\end{figure}
+
+The analysis of this chart show that from late 2008 the disapproval rate was hight to around 80 percent while the approval rate was very low at about 15 percent. And the approval rate began increasing at a fast pace before attaining his pick at around 30 percent, whereas in the opposite  the disapproval rate started  rapidly decreasing  until attaining a minimal  value of about 55 percent. Then from  2009 to mid 2011 the approval and disapproval rate evolve at a lower pace in opposite direction with an increase of disapproval to truthfully 78 percent and a decrease of approval to around 12 percent. From there those rate have flatten until  now at about the 72 percent an 11 percent.
+
+\item {\large {\bf The Script}}
+\begin{lstlisting}[language = R]
+
+slug <- "congress-job-approval"
+## polster Chart
+chart_congress <- pollstr_chart(slug)
+
+# Filter by date
+estimates_congress <- chart_congress[["estimates_by_date"]]
+
+# Generate the plot using ggplot2 and save
+ggplot(estimates_congress, 
+               aes(x = date, y = value, color = choice)) + geom_line()
+ggsave(file = paste(imageDirectory,"Congress_job_app.png",sep="/"))
+
+\end{lstlisting}
+\end{enumerate}
+
+\end{section}
+
 
 \end{document}

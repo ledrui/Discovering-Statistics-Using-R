@@ -1,0 +1,79 @@
+\documentclass{article}[12pt]
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{dtklogos}
+\usepackage{verbatim}
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{calrsfs}
+\usepackage{collectbox}
+\usepackage{blindtext}
+\newcommand{\R}{{\mathbb R}}
+\renewcommand{\vec}[1]{{\mathbf #1}}
+\newcommand{\points}[1]{\phantom{.}\hfill \textbf{(#1 points)}}
+\newcommand{\matlab}{{\textsc{Matlab}} }
+
+
+\begin{document}
+\begin{center}
+
+
+\title{Resampling Method - Seminar 3}
+\hfill Iliass Tiendrebeogo\\
+\hfill ID: 30742742
+
+\end{center}
+\bigskip
+
+\begin{center}
+  \begin{Large}
+      
+    Resampling Method - Seminar 3 \\
+    Math 567: Winter 2016 \\
+ 
+   \small \today\\
+    
+  \end{Large}
+\end{center}
+
+\bigskip
+
+{\bf \large The \verb|jackknife| Resampling Method}
+
+\bigskip 
+The {\bf jackknife} is a resampling technique developed by Maurice Quenouille (1949, 1956) and John Tukey (1958). It preceded the {\bf bootstrap } thechnique, it's most used for {\bf variance} and {\bf bias} estimation.
+
+\begin{enumerate}
+\item % Mathematic
+{\bf Estimation}
+
+To find the {\bf \verb|jackknife|} estimate of a parameter, we estimate the parameter for each subsample omitting the $ith$ observation to estimate the previously unknown value of parameter.
+$$ \bar{x}_i = \frac{1}{n-1}\sum_{j}^{n} x_j $$
+\bigskip
+{\bf Variance Estimation}
+
+An estimate of the variance of an estimator can be calculated using the jackknife technique.
+$$ \mathrm{Var_{(jack)}} = \frac{n-1}{n} \sum_{i=1}^{n}(\bar{x}_{i} - \bar{x}_\mathrm{(.)})^{2}   $$
+
+ $\bar{x}_i$ is the parameter estimate based on leaving out the ith observation, and $\bar{x}_\mathrm{(.)}$ is the estimator based on all of the subsamples.
+
+\item % Application
+{\bf \large The jackknife estimate of bias of our dataset using R language }
+
+First we install and load the \verb|"bootrap"| package \\
+
+\verb|install.packages("bootstrap")|\\
+\verb|library(bootstrap)| \\
+
+load the data\\
+
+\verb|data <- read.csv('Seminar_2.csv', header = TRUE, sep = "")|\\
+
+\end{enumerate}
+
+
+
+
+\end{document}
