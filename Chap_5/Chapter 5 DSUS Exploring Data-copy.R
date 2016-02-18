@@ -9,7 +9,7 @@
 #----Set the working directory------
 setwd("~/Dropbox/Math567/Discovering-Statistics-Using-R/Chap_5/")
 
-imageDirectory<-"~/Dropbox/Math567/Discovering-Statistics-Using-R/Chap_5/
+imageDirectory<-"~/Dropbox/Math567/Discovering-Statistics-Using-R/Chap_5/"
 
 
 

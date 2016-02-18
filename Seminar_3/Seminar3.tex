@@ -43,14 +43,20 @@
 {\bf \large The \verb|jackknife| Resampling Method}
 
 \bigskip 
-The {\bf jackknife} is a resampling technique developed by Maurice Quenouille (1949, 1956) and John Tukey (1958). It preceded the {\bf bootstrap } thechnique, it's most used for {\bf variance} and {\bf bias} estimation.
+The {\bf jackknife} was a forerunner of the bootstrap, developed by
+Maurice Quenouille in 1949 to estimate the {\bf bias} of an estimator
+$\hat \theta$ of a population parameter $\theta$, and extended (and
+given its name) by John Tukey in 1958 to estimate the {\bf standard
+error} of $\hat \theta$. \cite{David}
+\smallskip
+\smallskip 
 
 \begin{enumerate}
 \item % Mathematic
 {\bf Estimation}
 
-To find the {\bf \verb|jackknife|} estimate of a parameter, we estimate the parameter for each subsample omitting the $ith$ observation to estimate the previously unknown value of parameter.
-$$ \bar{x}_i = \frac{1}{n-1}\sum_{j}^{n} x_j $$
+To find the {\bf \verb|jackknife|} estimate of a parameter, we estimate the parameter for each subsample omitting the $ith$ observation to estimate the previously unknown value of parameter $\bar{x_i}$
+$$ \bar{x}_i = \frac{1}{n-1}\sum_{j\neq i}^{n} x_j $$
 \bigskip
 {\bf Variance Estimation}
 
@@ -59,9 +65,36 @@ $$ \mathrm{Var_{(jack)}} = \frac{n-1}{n} \sum_{i=1}^{n}(\bar{x}_{i} - \bar{x}_\m
 
  $\bar{x}_i$ is the parameter estimate based on leaving out the ith observation, and $\bar{x}_\mathrm{(.)}$ is the estimator based on all of the subsamples.
 
-\item % Application
-{\bf \large The jackknife estimate of bias of our dataset using R language }
+\bigskip
+{\bf Bais Estimation}
 
+
+$$\widehat{Bais}_{jack} =(n-1)(\hat{\theta}_{(.)} - \hat{\theta})  $$
+
+
+{\bf first order estimate of } $\theta$ is 
+$$   \widehat{\text{Bias}}_\mathrm{(\theta)}=n\hat{\theta} - (n-1)\hat{\theta}_\mathrm{(.)} $$
+
+The  multiplative factor $(n-1)$ is chosen to make this work out exactly right for the case of estimating the variance. \cite{Kate}
+
+\bigskip 
+{\bf \large The Relationship Between the Jackknife and the Boot-
+strap}
+
+The jackknife is like a bootstrap in which sampling is done without replacement
+instead of with, and the samples are of size $(n − 1)$ instead of $n$.
+
+\bigskip
+
+unless $n$ is large, jackknife is less computationally intensive. But if jackknife jackknife uses fewer samples than bootstrap, then jackknife is using less information. 
+
+\item % Application
+{\bf \large  The jackknife estimate of bias of our dataset using R language }
+
+
+{\bf We are computing the ackknife estimate of bias of the median }
+
+\bigskip
 First we install and load the \verb|"bootrap"| package \\
 
 \verb|install.packages("bootstrap")|\\
@@ -71,9 +104,27 @@ load the data\\
 
 \verb|data <- read.csv('Seminar_2.csv', header = TRUE, sep = "")|\\
 
+we extract each vector from the dataset\\
+
+\verb|col1 <- data[[1]]|\\
+\verb|col1 <- data[[2]]|\\
+{\bf theta function}\\
+This is the theta function  which will be passed to jackknife method
+
+\verb|theta <- function(x){ median(x) }|\\
+
+\verb|result1 <- jackknife(col1, theta)|\\
+\verb|result1$jack.bias|\\
+result : \verb|>  0.1124775|\\
+
+\verb|result2 <-jackknife(col2, theta)|\\
+\verb|result2$jack.bias|\\
+result : \verb|>  -0.04999|
+
 \end{enumerate}
 
 
 
-
+\bibliography{Seminar3}
+\bibliographystyle{plainnat}
 \end{document}

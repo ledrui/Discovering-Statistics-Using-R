@@ -1,0 +1,174 @@
+\documentclass[11pt]{article}
+
+\addtolength{\parskip}{0.1in}
+\addtolength{\parindent}{-15pt}
+\addtolength{\textwidth}{0.2in}
+\addtolength{\textheight}{0.75in}
+\addtolength{\topmargin}{-0.375in}
+
+\begin{document}
+
+\begin{flushleft}
+Dr.~David Draper\\
+Statistics Group, School of Mathematical Sciences\\
+University of Bath\\
+\end{flushleft}
+
+\begin{center}
+{\Large
+{\bf X3: Some Notes on the Jackknife}}
+\end{center}
+\smallskip
+\smallskip
+
+The {\bf jackknife} was a forerunner of the bootstrap, developed by
+Maurice Quenouille in 1949 to estimate the {\bf bias} of an estimator
+$\hat \theta$ of a population parameter $\theta$, and extended (and
+given its name) by John Tukey in 1958 to estimate the {\bf standard
+error} of $\hat \theta$.
+\smallskip
+\smallskip
+
+\section*{Bias Estimation}
+
+{\bf The idea behind the jackknife}: Resampling from $x = (x_1, \ldots,
+x_n)$ in a particularly simple way---successively deleting one point at
+a time---can give you some idea of how stable $\hat \theta$ is, which in
+turn should provide some information about how close $\hat \theta$ is to
+$\theta$.
+
+Define $x_{(i)} = (x_1, \ldots, x_{i-1}, x_{i+1}, \ldots, x_n)$, the
+{\it $i$th jackknife sample\/}. Imagine recalculating $\hat \theta$
+based on $x_{(i)}$ for each $i$, rather than basing it on the whole data
+vector $x$---after all, $\hat \theta$ is just some function $s(x)$, so
+define ${\hat \theta}_{(i)} = s(x_{(i)})$, i.e., what you'd get by
+applying that function to the jackknife samples---and define ${\hat
+\theta}_{(\cdot)} = {1 \over n} \sum_{i=1}^n {\hat \theta}_{(i)}$.
+
+Quenouille's idea was that $({\hat \theta}_{(\cdot)} - {\hat \theta})$
+should be relevant to bias assessment. He proposed the {\bf jackknife
+estimate of bias},
+
+\begin{equation}
+\widehat{\mbox{bias}}_{\mbox{\footnotesize jack}} = (n - 1) ({\hat
+\theta}_{(\cdot)} - {\hat \theta}) ,
+\end{equation}
+
+and used this to suggest a {\bf bias-corrected}
+version of the estimator $\hat \theta$,
+
+\begin{equation}
+{\bar \theta} = {\hat \theta} -
+\widehat{\mbox{bias}}_{\mbox{\footnotesize jack}} .
+\end{equation}
+\smallskip
+\smallskip
+
+The main mystery in this is how Quenouille came up with the multiplier
+$(n - 1)$ in front of $({\hat \theta}_{(\cdot)} - {\hat \theta})$. One
+way to figure this out is to see what the right multiplier is in a
+simple problem where you know the right answer---i.e., find a biased
+estimator whose bias adjustment you know, apply the jackknife to it and
+see what multiplier is needed to make $\bar \theta$ unbiased.
+\smallskip
+\smallskip
+
+\pagebreak
+
+{\bf Example}. Take $(X_1, \ldots, X_n) \stackrel{\mbox{\footnotesize
+IID}}{\sim} F$ and consider $\theta = V_F(X) = E(X - \mu)^2 = \int (x -
+\mu)^2 dF(x)$, where $\mu = E_F(X) = \int x \, dF(x)$. As summaries of
+the population cdf $F$, $\mu$ and $\theta$ may be thought of literally
+as functions of $F$, e.g., $\mu = t(F)$. When viewed in this way,
+finding a good estimate of $\mu$ amounts to finding a good estimate of
+$F$ and substituting it in: ${\hat \mu} = t({\hat F})$, which Efron and
+Tibshirani (1993, hereafter ET) call the {\bf plug-in estimate} of
+$\mu$. Without any other information about $F$ the best you can do in
+estimating $F(x) = P(X \leq x)$ is to use the {\bf empirical cdf} ${\hat
+F}(x) = (\mbox{\# of }X_i \leq x)/n$, which (e.g.) in the case of the
+population mean leads to the estimate ${\hat \mu} = t({\hat F}) = \int x
+d{\hat F}(x)$ = our old friend the sample mean ${\bar x} = {1 \over n}
+\sum_{i=1}^n x_i$ because $\hat F$ is a step function and
+(Riemann-Stieltjes) integration with respect to the derivative of a step
+function turns out to correspond to summation of the integrand at the
+jump points. So by the same token a good estimate of $\theta = V_F(X)$
+should be the plug-in estimate ${\hat \theta} = {1 \over n} \sum_{i=1}^n
+(x_i - {\bar x})^2$ (for instance you will recognize this as the maximum
+likelihood estimate of $\theta$ in the Gaussian case with both $\mu$ and
+$\theta$ unknown).  However you probably also remember that $\hat
+\theta$ is biased on the low side in this case: $E({\hat \theta}) = {{n
+- 1} \over n} \theta$, so that $\mbox{bias}({\hat \theta}) = - {\theta
+\over n}$.  You can show (and indeed I have encouraged you to show in
+the extra credit to problem 2 in Assignment~1) that the right multiplier
+of $({\hat \theta}_{(\cdot)} - {\hat \theta})$ in equation (1) above to
+make the bias-corrected jackknife estimate of variance unbiased is $(n -
+1)$, as Quenouille suggested.
+\smallskip
+\smallskip
+
+\section*{Standard Error Estimation}
+
+Like Quenouille, Tukey was interested in the values ${\hat
+\theta}_{(i)}$ of the estimator $\hat \theta$ applied to the jackknife
+samples $x_{(i)}$ formed by deleting points $i = 1, \ldots, n$ from the
+data set, but the use to which Tukey put the ${\hat \theta}_{(i)}$ was
+different: he thought that the variability of the ${\hat \theta}_{(i)}$
+around their average ${\hat \theta}_{(\cdot)}$ should provide standard
+error information for $\hat \theta$. Specifically, he proposed the {\bf
+jackknife estimate of standard error}
+
+\begin{equation}
+\widehat{\mbox{SE}}_{\mbox{\footnotesize jack}} = \sqrt{{{n - 1} \over
+n} \sum_{i=1}^n ({\hat \theta}_{(i)} - {\hat \theta}_{(\cdot)})^2} .
+\end{equation}
+
+Once again the main mystery is where Tukey got the multiplier, and the
+solution is the same as it was with Quenouille: Tukey picked a simple
+problem where he knew the right answer and chose the multiplier to
+match. As I have asked you to examine in problem 2 of Assignment 1,
+instead of Quenouille's variance parameter Tukey used something even
+simpler, the mean: he showed that equation (3) applied to the sample
+mean, ${\hat \theta} = {\bar x}$, produces the correct standard error
+$\sqrt{{1 \over {n(n-1)}} \sum_{i=1}^n (X_i - {\bar X})^2}$.
+
+\pagebreak
+
+Tukey's use of the jackknife is typically more valuable in practice than
+Quenouille's, because standard error assessment is usually both easier and
+more important than bias assessment and adjustment (see ET chapter 10).
+\smallskip
+\smallskip
+
+\section*{Warning About the Jackknife}
+
+As ET note in their Chapters~10 and 11, the jackknife works only on
+plug-in estimates $t({\hat F})$ in which the function $t(\cdot)$ is {\it
+smooth\/} (e.g., twice differentiable). This includes many standard
+statistics like the mean and variance but also excludes a number of
+standard quantities such as the median. The jackknife can be fixed for
+non-smooth statistics by deleting more than one point at a time in
+constructing the jackknife samples, but by the time you have gone that
+far you might as well use the bootstrap.
+\smallskip
+\smallskip
+
+\section*{The Relationship Between the Jackknife and the Bootstrap}
+
+The jackknife is like a bootstrap in which sampling is done without
+replacement instead of with, and the samples are of size $(n - 1)$
+instead of $n$. Since there are only $n$ such possible samples, there is
+no point in doing the resampling at random, which would just introduce a
+new layer of Monte Carlo uncertainty into the answer. People who like
+the bootstrap (such as ET) tend to think of the jackknife as a
+computationally less intensive way to approximate the answers you would
+get from bootstrapping (and you can show, as ET do in Section~11.5, that
+{\it when the jackknife works\/} [and it does not always do so, as noted
+above] its estimates of bias and standard error, like those of the
+bootstrap, are relatively unbiased but have more sampling variability
+than those of the bootstrap). Probably the jackknife is an idea whose
+time has mostly come and gone, but it has been useful in suggesting
+methods such as the bootstrap and {\bf cross-validation}, which (as we
+will later see) is a kind of predictive jackknife.
+
+\end{document}
+

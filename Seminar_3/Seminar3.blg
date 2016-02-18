@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Seminar3.aux
+The style file: plainnat.bst
+Database file #1: Seminar3.bib
+Warning--empty journal in Kate
+Warning--empty year in Kate
+Warning--empty year in Kate
+Warning--empty journal in David
+Warning--empty year in David
+Warning--empty year in David
+You've used 2 entries,
+            2773 wiz_defined-function locations,
+            599 strings with 4915 characters,
+and the built_in function-call counts, 625 in all, are:
+= -- 46
+> -- 20
+< -- 2
++ -- 8
+- -- 6
+* -- 40
+:= -- 102
+add.period$ -- 4
+call.type$ -- 2
+change.case$ -- 8
+chr.to.int$ -- 2
+cite$ -- 10
+duplicate$ -- 38
+empty$ -- 61
+format.name$ -- 8
+if$ -- 119
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 2
+newline$ -- 16
+num.names$ -- 8
+pop$ -- 30
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 21
+stack$ -- 0
+substring$ -- 4
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 22
+warning$ -- 6
+while$ -- 6
+width$ -- 0
+write$ -- 25
+(There were 6 warnings)
