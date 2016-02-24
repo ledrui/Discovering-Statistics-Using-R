@@ -8,10 +8,10 @@
 
 #Set the working directory (you will need to edit this to be the directory where you have stored the data files for this Chapter)
 
-setwd("~/Documents/Academic/Data/DSU_R/Chapter 04 (Graphs) R")
-imageDirectory<-"~/Documents/Academic/Books/Discovering Statistics/DSU R/DSU R I/DSUR I Images"
+setwd("~/Dropbox/Math567/Discovering-Statistics-Using-R/Chap_4/")
+imageDirectory<-"~/Dropbox/Math567/Discovering-Statistics-Using-R/Chap_4/"
 
-imageDirectory<-file.path(Sys.getenv("HOME"), "Documents", "Academic", "Books", "Discovering Statistics", "DSU R", "DSU R I", "DSUR I Images")
+#imageDirectory<-file.path(Sys.getenv("HOME"), "Documents", "Academic", "Books", "Discovering Statistics", "DSU R", "DSU R I", "DSUR I Images")
 
 
 ######A function to make it quick to save graphs in the image directory
@@ -28,7 +28,6 @@ saveInImageDirectory<-function(filename){
 #If you don't have ggplot2 installed then use:
 install.packages(c("ggplot2", "plyr"))
 
-
 #Initiate ggplot2
 library(ggplot2)
 library(reshape)
@@ -38,22 +37,22 @@ library(plyr)
 facebookData <- read.delim("FacebookNarcissism.dat",  header = TRUE)
 
 graph <- ggplot(facebookData, aes(NPQC_R_Total, Rating))
-graph + geom_point() + opts(title = "geom_point()")
+graph + geom_point() + labs(title = "geom_point()")
 saveInImageDirectory("04 Tutorial Point.png")
 
-graph + geom_point(shape = 17) + opts(title = "geom_point(shape = 17)")
+graph + geom_point(shape = 17) + labs(title = "geom_point(shape = 17)")
 saveInImageDirectory("04 Tutorial Triangle.png")
 
-graph + geom_point(size = 6) + opts(title = "geom_point(size = 6)")
+graph + geom_point(size = 6) + labs(title = "geom_point(size = 6)")
 saveInImageDirectory("04 Tutorial Size.png")
 
-graph + geom_point(aes(colour = Rating_Type)) + opts(title = "geom_point(aes(colour = Rating_Type))")
+graph + geom_point(aes(colour = Rating_Type)) + labs(title = "geom_point(aes(colour = Rating_Type))")
 saveInImageDirectory("04 Tutorial Colour Point.png")
 
-graph + geom_point(aes(colour = Rating_Type), position = "jitter") + opts(title = "geom_point(aes(colour = Rating_Type), position = jitter)")
+graph + geom_point(aes(colour = Rating_Type), position = "jitter") + labs(title = "geom_point(aes(colour = Rating_Type), position = jitter)")
 saveInImageDirectory("04 Tutorial Jitter.png")
 
-graph + geom_point(aes(shape = Rating_Type), position = "jitter") + opts(title = "geom_point(aes(shape = Rating_Type), position = jitter)")
+graph + geom_point(aes(shape = Rating_Type), position = "jitter") + labs(title = "geom_point(aes(shape = Rating_Type), position = jitter)")
 saveInImageDirectory("04 Tutorial Jitter2.png")
 
 

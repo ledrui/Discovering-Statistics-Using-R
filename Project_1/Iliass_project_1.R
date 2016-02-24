@@ -20,6 +20,9 @@ gop_plot <- (ggplot(gop_frame, aes(x = date, y = value, color = choice)) + geom_
 ggsave(file = paste(imageDirectory,"gop.png",sep="/"))
 gop_plot
 
+
+
+
 ## 2016 National Democrate Primary --------------------------------------
 
 dem_chart <- pollstr_chart('2016-national-democratic-primary')  
@@ -33,22 +36,36 @@ ggsave(file = paste(imageDirectory,"dem.png",sep="/"))
 dem_plot
 
 
+
+
 ### 2016 South Carolina Republican Presidential Primary --------------------------------
 
-sc_chart <- pollstr_chart("2016-president-gop-primary")
+slug <- "2016-south-carolina-presidential-republican-primary"
+
+sc_chart <- pollstr_chart(slug)
 
 ## Filtering 
-estimates <- sc_chart[["estimates_by_date"]]
+sc_estimates <- sc_chart[["estimates_by_date"]]
 
-## filtering
+sc_estimates <- sc_estimates[sc_estimates$date >= as.Date("2015-07-1"),]
 
-sc_pollsframe <- sc_polls[sc_polls$date > as.Date("2015-07-01")]
-sc_polls
+sc_polls <- pollstr_polls(chart = slug, after = "2015-07-1", max_pages = 1000000)
 
+sc_questions <-sc_polls[sc_polls$questions$subpopulation == "Likely Voters"] 
+
+plotdata <- merge(sc_polls$polls, sc_questions, by = "id")
+## -------- plotting------
+sc_plot <- (ggplot(sc_estimates, aes(x = date, y = value, color = choice))+ geom_line())
+ggsave(file = paste(imageDirectory,"sc_gop.png",sep="/"))
+sc_plot
+ggplot() + geom_line(data = sc_estimates, mapping = aes(y = value, x = date, color = choice))
+                     
+
+
+                     
 ### President Obama's Job Approval---------------------------------------------
 
 slug <- "obama-job-approval"
-
 
 ## pollster Chart
 chart <- pollstr_chart(slug)
