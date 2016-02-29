@@ -4,7 +4,11 @@ library(ggplot2)
 setwd("~/Dropbox/Math567/Discovering-Statistics-Using-R/Project_2/")
 
 getSymbols("AAPL", src="google") # from google finance
-getS
+getSymbols("MSFT")
+
+MSFT['2015']
+
+# Chart for 
 chartSeries(AAPL, subset='last 3 months')
 addBBands()
 

@@ -1,0 +1,54 @@
+\documentclass{article}[16pt]
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{dtklogos}
+\usepackage{verbatim}
+\usepackage{url}
+\usepackage{natbib}
+
+\usepackage{calrsfs}
+\usepackage{collectbox}
+\usepackage{blindtext}
+\newcommand{\R}{{\mathbb R}}
+\renewcommand{\vec}[1]{{\mathbf #1}}
+\newcommand{\points}[1]{\phantom{.}\hfill \textbf{(#1 points)}}
+\newcommand{\matlab}{{\textsc{Matlab}} }
+
+
+\begin{document}
+\begin{center}
+
+
+\title{Seminar - Cook's Distance }
+\hfill Iliass Tiendrebeogo\\
+
+\hfill \today\\
+\end{center}
+\bigskip
+
+\begin{center}
+  \begin{Large}
+      
+    Seminar - Cook's Distance \\
+    Math 567: Winter 2016 \\
+       
+  \end{Large}
+\end{center}
+
+\bigskip
+\section{Little Background}
+In Regression analysis, Cook's Distance is used to estimate the influence of a data point over the model when performing the ordinary least Square regression. It was introduced by R. Dennis Cook in 1977. \citep{cook} 
+\section{Definition}
+Cook's distance measures the effect of deleting a given observation. Data points with large residuals (outliers) and/or high leverage may distort the outcome and accuracy of a regression. Points with a large Cook's distance are considered to merit closer examination in the analysis. For the algebraic expression, first define.
+\section{Highly influential  data point}
+A data point is said to be influential if when removed from the calculation change the regression line significantly. Data point with high leverage can be influential if they it is an outlier. A data point can have an high leverage but not influential, goes the same way for an outlier(all outlier are not influential).
+\section{Interpretation of Cook's Distance}
+\section{Cook's Distance using R}
+\section{Discussion}
+
+
+\bibliographystyle{plainnat}
+\bibliography{cooks_distance}
+\end{document}
