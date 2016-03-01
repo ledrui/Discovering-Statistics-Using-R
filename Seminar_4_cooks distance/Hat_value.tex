@@ -1,0 +1,76 @@
+\documentclass{article}[16pt]
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{dtklogos}
+\usepackage{verbatim}
+\usepackage{url}
+\usepackage{natbib}
+
+\usepackage{calrsfs}
+\usepackage{collectbox}
+\usepackage{blindtext}
+\newcommand{\R}{{\mathbb R}}
+\renewcommand{\vec}[1]{{\mathbf #1}}
+\newcommand{\points}[1]{\phantom{.}\hfill \textbf{(#1 points)}}
+\newcommand{\matlab}{{\textsc{Matlab}} }
+
+
+\begin{document}
+\begin{center}
+
+
+\title{Seminar - Cook's Distance }
+\hfill Iliass Tiendrebeogo\\
+
+\hfill \today\\
+\end{center}
+\bigskip
+
+\begin{center}
+  \begin{Large}
+      
+    Seminar 4 - Hat Value \\
+    Math 567: Winter 2016 \\
+       
+  \end{Large}
+\end{center}
+
+\bigskip
+\section{Little Background}
+\section{Highly influential  data point}
+A data point is said to be influential if when removed from the calculation change the regression line significantly. How influential a data-point is, is the combination of how much leverage it has and how extreme it is in the $y$ direction. However, A data point can have an high leverage but not influential, and it goes the same way for an outlier(all outlier are not influential).
+\section{Definition}
+Hat-matrix  
+
+\bigskip
+The algebraic expression.
+$$\hat{y} = Hy$$
+Where:\\
+$\hat{Y}_j$ is the prediction from the full regression model for observation $j$; \\
+$\hat{Y}_{j(i)}$ is The prediction for observation $j$ from a refitted regression model in which observation $i$ has been omitted;
+
+
+The {\bf leverage} define how far apart is a given data point from the average(mean/median). Points with high leverage tend to pull the regression line toward themselves and have impact on the slop of the regression line hence {\bf influential}.
+
+\section{Interpretation of Hat values}
+There are several rules when interpreting {\bf cook's distance}. The widely used criterion is that a point is considered to be highly influential if $D_i > 1$ \citep{weisberg}
+
+Different rules have  been defined such as: $D_i > 8.5$ if $p > 3$ \citep{barry}   where $p$ is the number of regression parameter. \citep{Robert} declares a data-point to be influential when $D_i > \frac{4}{n}$ where $n$ is the number of observation.
+\section{Hat values using R}
+Packages use:\\ 
+\texttt{install.packages (QuantPshyc)}\\
+\texttt{library(QuantPshyc)}\\
+call Cook's $D_i$ from the library: \texttt{linearmodel.cook()}\\
+manually computing cook's distance: \texttt{•}
+\section{Discussion}
+What to do when a given data-point's $D_i > 1$ ? has an 
+
+
+\bigskip
+
+
+\bibliographystyle{plainnat}
+\bibliography{}
+\end{document}

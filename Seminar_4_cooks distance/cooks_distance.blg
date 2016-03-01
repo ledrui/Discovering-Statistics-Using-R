@@ -3,47 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: cooks_distance.aux
 The style file: plainnat.bst
 Database file #1: cooks_distance.bib
-Warning--entry type for "cook" isn't style-file defined
---line 1 of file cooks_distance.bib
-You've used 1 entry,
+Warning--entry type for "weisberg" isn't style-file defined
+--line 10 of file cooks_distance.bib
+Warning--entry type for "Barry" isn't style-file defined
+--line 18 of file cooks_distance.bib
+You've used 5 entries,
             2773 wiz_defined-function locations,
-            596 strings with 4998 characters,
-and the built_in function-call counts, 330 in all, are:
-= -- 26
-> -- 10
-< -- 1
-+ -- 4
-- -- 3
-* -- 17
-:= -- 55
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 4
-chr.to.int$ -- 1
-cite$ -- 2
-duplicate$ -- 15
-empty$ -- 33
-format.name$ -- 4
-if$ -- 65
+            619 strings with 5392 characters,
+and the built_in function-call counts, 1517 in all, are:
+= -- 121
+> -- 50
+< -- 5
++ -- 20
+- -- 15
+* -- 79
+:= -- 247
+add.period$ -- 16
+call.type$ -- 5
+change.case$ -- 17
+chr.to.int$ -- 5
+cite$ -- 10
+duplicate$ -- 90
+empty$ -- 161
+format.name$ -- 20
+if$ -- 315
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 12
+missing$ -- 6
+newline$ -- 34
+num.names$ -- 20
+pop$ -- 59
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 15
 quote$ -- 0
-skip$ -- 15
+skip$ -- 65
 stack$ -- 0
-substring$ -- 2
-swap$ -- 1
+substring$ -- 10
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 11
+type$ -- 40
 warning$ -- 0
-while$ -- 3
+while$ -- 15
 width$ -- 0
-write$ -- 19
-(There was 1 warning)
+write$ -- 69
+(There were 2 warnings)

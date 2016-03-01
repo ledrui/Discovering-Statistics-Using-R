@@ -31,7 +31,7 @@
 \begin{center}
   \begin{Large}
       
-    Seminar - Cook's Distance \\
+    Seminar 4 - Cook's Distance \\
     Math 567: Winter 2016 \\
        
   \end{Large}
@@ -39,14 +39,67 @@
 
 \bigskip
 \section{Little Background}
-In Regression analysis, Cook's Distance is used to estimate the influence of a data point over the model when performing the ordinary least Square regression. It was introduced by R. Dennis Cook in 1977. \citep{cook} 
-\section{Definition}
-Cook's distance measures the effect of deleting a given observation. Data points with large residuals (outliers) and/or high leverage may distort the outcome and accuracy of a regression. Points with a large Cook's distance are considered to merit closer examination in the analysis. For the algebraic expression, first define.
+In Regression analysis, Cook's Distance is used to estimate the influence of a data point over the model when performing the ordinary least square regression method. It was introduced by R. Dennis Cook in 1977. \citep{cook} 
 \section{Highly influential  data point}
-A data point is said to be influential if when removed from the calculation change the regression line significantly. Data point with high leverage can be influential if they it is an outlier. A data point can have an high leverage but not influential, goes the same way for an outlier(all outlier are not influential).
+A data point is said to be influential if when removed from the calculation change the regression line significantly. Data point with high leverage can be influential if they it is an outlier. However, A data point can have an high leverage but not influential, and it goes the same way for an outlier(all outlier are not influential).
+
+The {\bf leverage} define how far apart is a given data point from the average(mean/median). Points with high leverage tend to pull the regression line toward themselves and have impact on the slop of the regression line hence {\bf influential}.
+\section{Definition}
+Cook's distance measures how much a parameter estimate change when a data-point is removed from the calculation. Data points with large residuals (outliers) and/or high leverage may distort the outcome and accuracy of a regression. Points with a large Cook's distance needs closer examination in the analysis.
+
+\bigskip
+The algebraic expression.
+$$D_i = \frac{\sum_{j=1}^n \left( \hat{Y}_j - \hat{Y}_{j(i)}  \right) ^2}{k MSE}$$
+Where:\\
+$\hat{Y}_j$ is the prediction from the full regression model for observation $j$; \\
+$\hat{Y}_{j(i)}$ is The prediction for observation $j$ from a refitted regression model in which observation $i$ has been omitted;\\
+$k$ is the number of prediction parameter of the regression model;\\
+$MSE$ is the mean square error.\\
+
+Algebraically Cook'S Distance is equivalent to the following expression:
+
+\section{Highly influential  data point}
+A data point is said to be influential if when removed from the calculation change the regression line significantly. Data point with high leverage can be influential if they it is an outlier. However, A data point can have an high leverage but not influential, and it goes the same way for an outlier(all outlier are not influential).
+
+The {\bf leverage} define how far apart is a given data point from the average(mean/median). Points with high leverage tend to pull the regression line toward themselves and have impact on the slop of the regression line hence {\bf influential}.
 \section{Interpretation of Cook's Distance}
+There are several rules when interpreting {\bf cook's distance}. The widely used criterion is that a point is considered to be highly influential if $D_i > 1$ \citep{weisberg}
+
+Different rules have  been defined such as: $D_i > 8.5$ if $p > 3$ \citep{barry}   where $p$ is the number of regression parameter. \citep{Robert} declares a data-point to be influential when $D_i > \frac{4}{n}$ where $n$ is the number of observation.
 \section{Cook's Distance using R}
+In this example we use album sales2 data from the book "Discovering Statistics Using R" \citep{DSUR}\\
+First we build the fitted regression model after loading the data \\
+\texttt{album2<-read.delim("Album Sales 2.dat", header = TRUE)\\
+\# run the multiple regression model\\
+lm\_model<-lm(sales ~ adverts + airplay + attract, data = album2)\\
+\# analyse the cook's D by calling the built-in function cooks.distance\\
+cooks.D <- cooks.distance(lm\_model)\\
+\# determine influential points by applying the threshold of 0.05 for the sake of presentation\\
+influential <- cooks.D > 0.05\\
+we managed to isolate points at positions 1, 164, 169}\\
+Now we plot cook's Distance vector\\
+\texttt{plot(cooks.D, ylab = "cook's distance")\\
+\# point with high $D_i$ will red\\ 
+points(1, cooks.D[1], col = 'red') \\
+points(164, cooks.D[164], col = 'red')\\
+points(169, cooks.D[169], col = 'red')}
+
+
+manually computing cook's distance: \texttt{•}
 \section{Discussion}
+{ \bf What should we do when a given data-point's $D_i > threshold$ ?:}\\
+
+
+First we should make sure that the observation is recorded correctly\\
+Do the outcome change when the data is removed from the calculation? if the outcome do not change, it's not a big deal, but if the outcome change then this a problem that we need to fix. We don't want our statistical model relaying on a single data-point.\\
+
+In that case we could reports two different results , one whit the influential data and another one without the the influential data.\\
+
+Or we could restrict the analysis to values of $X$ for which the relationship holds. Which is usually not a good idea since we are omitting a data-point even though we would report that a outlier has been removed from the calculation. 
+
+
+
+\bigskip
 
 
 \bibliographystyle{plainnat}

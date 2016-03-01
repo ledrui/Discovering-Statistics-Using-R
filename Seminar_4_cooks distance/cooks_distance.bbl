@@ -1,14 +1,34 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[Andy~Field(2012)]{DSUR}
+Zoë~Field Andy~Field, Jeremy~Miles.
+\newblock \emph{DISCOVERING STATISTICS USING R}.
+\newblock Sage Publucation, Ltd., 2012.
+\newblock URL \url{http://studysites.sagepub.com/dsur/main.htm}.
+
+\bibitem[Bollen(1990)]{Robert}
+Kenneth; Robert~W. Bollen.
+\newblock \emph{Modern Methods of Data Analysis}.
+\newblock Newbury Park, 1990.
+
 \bibitem[Cook(1977)]{cook}
-R.Dennis Cook.
-\newblock Detection of influential observation in linear regression, 1977.
-\newblock URL
-  \url{http://www.jstor.org/stable/1268249?origin=crossref&seq=1#page_scan_tab_contents}.
+R.~Dennis Cook.
+\newblock \emph{Detection of Influential Observation in Linear Regression}.
+\newblock Taylor and Francis, Ltd., 1977.
+\newblock URL \url{http://www.jstor.org/stable/1268249}.
+
+\bibitem[McDonal(2002)]{barry}
+Barry McDonal.
+\newblock A teaching note on cook’s distance, 2002.
+
+\bibitem[Stanford~Weisberg(1982)]{weisberg}
+R.~Dennis~Cook Stanford~Weisberg.
+\newblock Residuals and influence in regression, 1982.
+\newblock URL \url{https://books.google.com/books?id=MVSqAAAAIAAJ}.
 
 \end{thebibliography}
