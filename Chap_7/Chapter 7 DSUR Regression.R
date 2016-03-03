@@ -10,9 +10,6 @@
 
 
 #----Set the working directory------
-setwd("~/Dropbox/Team Field/DSUR/DSUR_2/DSUR2 Data Files/Chapter 07 (Regression)")
-setwd("~/Documents/Academic/Data/DSU_R/Chapter 07 (Regression)")
-imageDirectory<-"~/Documents/Academic/Books/Discovering Statistics/DSU R/DSU R I/DSUR I Images"
 
 setwd("~/Public/Academic/Data/DSU_R/Chapter 07 (Regression)")
 imageDirectory<-"~/Public/Academic/Books/Discovering Statistics/DSU R/DSU R I/DSUR I Images"
