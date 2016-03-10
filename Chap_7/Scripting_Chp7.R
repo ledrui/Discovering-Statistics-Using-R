@@ -12,3 +12,4 @@ album1 <-read.delim("Album Sales 1.dat", header = TRUE)
 album.Sales.1 <-lm(sales ~ adverts, data = album1, na.action = na.exclude)
 summary(album.Sales.1)
 sqrt(0.3347)
+

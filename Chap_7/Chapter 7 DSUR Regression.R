@@ -11,8 +11,9 @@
 
 #----Set the working directory------
 
-setwd("~/Public/Academic/Data/DSU_R/Chapter 07 (Regression)")
-imageDirectory<-"~/Public/Academic/Books/Discovering Statistics/DSU R/DSU R I/DSUR I Images"
+
+setwd("~/Dropbox/Math567/Discovering-Statistics-Using-R/Chap_7/")
+imageDirectory<-"~/Dropbox/Math567/Discovering-Statistics-Using-R/Chap_7/"
 
 
 
