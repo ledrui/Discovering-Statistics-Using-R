@@ -1,0 +1,1184 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.24)  8 MAR 2016 20:04
+entering extended mode
+**C:/Users/lemleyj/Desktop/Math*class*2016/assignments/project2/project1.tex
+("C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/project1.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrartcl.cls
+Document Class: scrartcl 2015/02/07 v3.16 KOMA-Script document class (article)
+
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrkbase.sty
+Package: scrkbase 2015/02/07 v3.16 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrbase.sty
+Package: scrbase 2015/02/07 v3.16 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrlfile.sty
+Package: scrlfile 2015/02/07 v3.16 KOMA-Script package (loading files)
+Package scrlfile, 2015/02/07 v3.16 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+)))
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\tocbasic.sty
+Package: tocbasic 2015/02/07 v3.16 KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 116.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 117.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 118.
+Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input l
+ine 1564.
+
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrsize11pt.
+clo
+File: scrsize11pt.clo 2015/02/07 v3.16 KOMA-Script font size class option (11pt
+)
+)
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\typearea.sty
+Package: typearea 2015/02/07 v3.16 KOMA-Script package (type area)
+Package typearea, 2015/02/07 v3.16 KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+\footheight=\skip45
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1342.
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count86
+\c@table=\count87
+\bibindent=\dimen102
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\fourier.sty
+Package: fourier 2005/01/01 1.4 fourier-GUTenberg package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\fourier-orns.sty
+Package: fourier-orns 2004/01/30 1.1 fourier-ornaments package
+)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 50.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 50.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> T1/futs/m/n on input line 50.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 50.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/futs/m/n on input line 50.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  T1/futs/m/n --> T1/futs/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 59.
+LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `normal' on input line 59.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> FML/futmi/m/it on input line 59.
+LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `bold' on input line 59.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> FML/futmi/m/it on input line 59.
+\symotherletters=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  FML/futmi/m/it --> FML/futmi/b/it on input line 61.
+LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
+(Font)                  FML/futm/m/it --> FML/futm/b/it on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 65.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 66.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 68.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 73.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 113.
+LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 113.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> FMS/futm/m/n on input line 113.
+LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 113.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> FMS/futm/m/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 114.
+LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 1
+14.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 114.
+LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 114
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 114.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 115.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 115.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 115.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 116.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 117.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> T1/futs/m/it on input line 117.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> T1/futs/m/it on input line 117.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \parallel on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 186.
+LaTeX Font Info:    Redeclaring math symbol \varvarrho on input line 187.
+LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 210.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 215.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 225.
+LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 227.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 229.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 231.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 233.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 235.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 237.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 239.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 241.
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 243.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 247.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 248.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 249.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 250.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 251.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 252.
+LaTeX Font Info:    Redeclaring math accent \check on input line 253.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 254.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 255.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 256.
+\symUfutm=\mathgroup5
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\amsmath\amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen104
+))
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+)
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\amsmath\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks16
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks17
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks18
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
+)
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\amscls\amsthm.sty
+Package: amsthm 2009/07/02 v2.20.1
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip51
+\thm@postskip=\skip52
+\thm@headsep=\skip53
+\dth@everypar=\toks25
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count101
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\lipsum\lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count102
+)
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\sectsty\sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+
+Class scrartcl Warning: Usage of package `fancyhdr' together
+(scrartcl)              with a KOMA-Script class is not recommended.
+(scrartcl)              I'd suggest to use 
+(scrartcl)              package `scrlayer-scrpage'.
+(scrartcl)              Nevertheless, using requested
+(scrartcl)              package `fancyhdr' on input line 57.
+
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip54
+\f@ncyO@elh=\skip55
+\f@ncyO@erh=\skip56
+\f@ncyO@olh=\skip57
+\f@ncyO@orh=\skip58
+\f@ncyO@elf=\skip59
+\f@ncyO@erf=\skip60
+\f@ncyO@olf=\skip61
+\f@ncyO@orf=\skip62
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen115
+\epsfysize=\dimen116
+)
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pdfpages.sty
+Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count103
+\calc@Bcount=\count104
+\calc@Adimen=\dimen117
+\calc@Bdimen=\dimen118
+\calc@Askip=\skip63
+\calc@Bskip=\skip64
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count105
+\calc@Cskip=\skip65
+)
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\eso-pic\eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+))
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+\AM@pagewidth=\dimen119
+\AM@pageheight=\dimen120
+
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pppdftex.def
+File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box29
+\AM@toc@title=\toks26
+\c@AM@survey=\count106
+\AM@templatesizebox=\box30
+)
+("C:\Users\lemleyj\Desktop\Math class 2016\assignments\project2\project1.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 94.
+LaTeX Font Info:    Try loading font information for FML+futm on input line 94.
+
+
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\fmlfutm.fd
+File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
+)
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 94.
+LaTeX Font Info:    Try loading font information for FMS+futm on input line 94.
+
+
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\fmsfutm.fd
+File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
+)
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 94.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 94.
+
+
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\fmxfutm.fd
+File: fmxfutm.fd futm-extension
+)
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 94.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 94.
+
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\t1futs.fd
+File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
+)
+\AtBeginShipoutBox=\box31
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+))
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 98.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
+File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 98
+.
+
+(C:\Users\lemleyj\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\fmlfutmi.fd
+File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
+)
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 98.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 98.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 98.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 98.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 98.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 98.
+LaTeX Font Info:    Try loading font information for U+msa on input line 98.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 98.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (35.62422pt too wide) in paragraph at lines 98--98
+ [][] 
+ []
+
+
+LaTeX Font Warning: Font shape `T1/cmss/bx/sc' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 99.
+
+("C:\Users\lemleyj\Desktop\Math class 2016\assignments\project2\project1.toc"
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 3.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 3.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 3.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 3.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 3.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 3.
+)
+\tf@toc=\write3
+
+[1
+
+
+{C:/Users/lemleyj/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<graph/AAPL1.png, id=8, 477.2229pt x 476.5002pt>
+File: graph/AAPL1.png Graphic file (type png)
+ <use graph/AAPL1.png>
+Package pdftex.def Info: graph/AAPL1.png used on input line 156.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/MSFT1.png, id=9, 477.2229pt x 476.5002pt>
+File: graph/MSFT1.png Graphic file (type png)
+ <use graph/MSFT1.png>
+Package pdftex.def Info: graph/MSFT1.png used on input line 160.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/cor1.png, id=10, 271.0125pt x 59.0205pt>
+File: graph/cor1.png Graphic file (type png)
+ <use graph/cor1.png>
+Package pdftex.def Info: graph/cor1.png used on input line 171.
+(pdftex.def)             Requested size: 334.60571pt x 72.87212pt.
+ [2]
+<graph/a_reg1.png, id=15, 477.2229pt x 476.5002pt>
+File: graph/a_reg1.png Graphic file (type png)
+ <use graph/a_reg1.png>
+Package pdftex.def Info: graph/a_reg1.png used on input line 185.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/m_reg1.png, id=16, 477.2229pt x 476.5002pt>
+File: graph/m_reg1.png Graphic file (type png)
+ <use graph/m_reg1.png>
+Package pdftex.def Info: graph/m_reg1.png used on input line 189.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+Underfull \hbox (badness 2245) in paragraph at lines 190--190
+[]\T1/futs/m/n/10.95 Linear re-gres-sion line of Mi-
+ []
+
+<graph/aapl_reg_1.png, id=17, 383.031pt x 215.6055pt>
+File: graph/aapl_reg_1.png Graphic file (type png)
+
+<use graph/aapl_reg_1.png>
+Package pdftex.def Info: graph/aapl_reg_1.png used on input line 200.
+(pdftex.def)             Requested size: 192.40036pt x 108.30254pt.
+
+<graph/msft_reg_1.png, id=18, 381.8265pt x 221.02576pt>
+File: graph/msft_reg_1.png Graphic file (type png)
+
+<use graph/msft_reg_1.png>
+Package pdftex.def Info: graph/msft_reg_1.png used on input line 204.
+(pdftex.def)             Requested size: 192.40036pt x 111.37598pt.
+
+Underfull \hbox (badness 2245) in paragraph at lines 205--205
+[]\T1/futs/m/n/10.95 Linear re-gres-sion line of Mi-
+ []
+
+<graph/AAPL2.png, id=19, 477.2229pt x 476.5002pt>
+File: graph/AAPL2.png Graphic file (type png)
+ <use graph/AAPL2.png>
+Package pdftex.def Info: graph/AAPL2.png used on input line 217.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/MSFT2.png, id=20, 477.2229pt x 476.5002pt>
+File: graph/MSFT2.png Graphic file (type png)
+ <use graph/MSFT2.png>
+Package pdftex.def Info: graph/MSFT2.png used on input line 221.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+[3 <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/AAPL1.p
+ng> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/MSFT1.
+png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/cor1.
+png>] <graph/cor2.png, id=27, 272.217pt x 61.4295pt>
+File: graph/cor2.png Graphic file (type png)
+ <use graph/cor2.png>
+Package pdftex.def Info: graph/cor2.png used on input line 232.
+(pdftex.def)             Requested size: 334.60571pt x 75.51564pt.
+
+<graph/a_reg2.png, id=28, 477.2229pt x 476.5002pt>
+File: graph/a_reg2.png Graphic file (type png)
+ <use graph/a_reg2.png>
+Package pdftex.def Info: graph/a_reg2.png used on input line 246.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/m_reg2.png, id=29, 477.2229pt x 476.5002pt>
+File: graph/m_reg2.png Graphic file (type png)
+ <use graph/m_reg2.png>
+Package pdftex.def Info: graph/m_reg2.png used on input line 250.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/aapl_reg_2.png, id=30, 381.22424pt x 215.00325pt>
+File: graph/aapl_reg_2.png Graphic file (type png)
+
+<use graph/aapl_reg_2.png>
+Package pdftex.def Info: graph/aapl_reg_2.png used on input line 261.
+(pdftex.def)             Requested size: 192.40036pt x 108.50851pt.
+
+<graph/msft_reg_2.png, id=31, 381.8265pt x 216.81pt>
+File: graph/msft_reg_2.png Graphic file (type png)
+
+<use graph/msft_reg_2.png>
+Package pdftex.def Info: graph/msft_reg_2.png used on input line 265.
+(pdftex.def)             Requested size: 192.40036pt x 109.25163pt.
+ [4 <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/a_reg1
+.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/m_re
+g1.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/aa
+pl_reg_1.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/gr
+aph/msft_reg_1.png>]
+<graph/AAPL3.png, id=39, 477.2229pt x 476.5002pt>
+File: graph/AAPL3.png Graphic file (type png)
+ <use graph/AAPL3.png>
+Package pdftex.def Info: graph/AAPL3.png used on input line 280.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/MSFT3.png, id=40, 477.2229pt x 476.5002pt>
+File: graph/MSFT3.png Graphic file (type png)
+ <use graph/MSFT3.png>
+Package pdftex.def Info: graph/MSFT3.png used on input line 284.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/cor3.png, id=41, 455.7025pt x 97.36375pt>
+File: graph/cor3.png Graphic file (type png)
+ <use graph/cor3.png>
+Package pdftex.def Info: graph/cor3.png used on input line 295.
+(pdftex.def)             Requested size: 334.60571pt x 71.4924pt.
+
+<graph/a_reg3.png, id=42, 477.2229pt x 476.5002pt>
+File: graph/a_reg3.png Graphic file (type png)
+ <use graph/a_reg3.png>
+Package pdftex.def Info: graph/a_reg3.png used on input line 309.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/m_reg3.png, id=43, 477.2229pt x 476.5002pt>
+File: graph/m_reg3.png Graphic file (type png)
+ <use graph/m_reg3.png>
+Package pdftex.def Info: graph/m_reg3.png used on input line 313.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+[5 <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/AAPL2.p
+ng> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/MSFT2.
+png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/cor2.
+png>] <graph/aapl_reg_3.png, id=50, 650.43pt x 371.3875pt>
+File: graph/aapl_reg_3.png Graphic file (type png)
+
+<use graph/aapl_reg_3.png>
+Package pdftex.def Info: graph/aapl_reg_3.png used on input line 324.
+(pdftex.def)             Requested size: 192.40036pt x 109.8587pt.
+
+<graph/msft_reg_3.png, id=51, 637.38126pt x 358.33875pt>
+File: graph/msft_reg_3.png Graphic file (type png)
+
+<use graph/msft_reg_3.png>
+Package pdftex.def Info: graph/msft_reg_3.png used on input line 328.
+(pdftex.def)             Requested size: 192.40036pt x 108.16405pt.
+ <graph/AAPL4.png, id=52, 477.2229pt x 476.5002pt>
+File: graph/AAPL4.png Graphic file (type png)
+
+<use graph/AAPL4.png>
+Package pdftex.def Info: graph/AAPL4.png used on input line 342.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+ <graph/MSFT4.png, id=53, 477.2229pt x 476.5002pt>
+File: graph/MSFT4.png Graphic file (type png)
+
+<use graph/MSFT4.png>
+Package pdftex.def Info: graph/MSFT4.png used on input line 346.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+ <graph/cor4.png, id=54, 452.69125pt x 101.37875pt>
+File: graph/cor4.png Graphic file (type png)
+
+<use graph/cor4.png>
+Package pdftex.def Info: graph/cor4.png used on input line 357.
+(pdftex.def)             Requested size: 334.60571pt x 74.934pt.
+ [6 <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/a_reg2
+.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/m_re
+g2.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/aa
+pl_reg_2.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/gr
+aph/msft_reg_2.png>]
+<graph/a_reg4.png, id=62, 477.2229pt x 476.5002pt>
+File: graph/a_reg4.png Graphic file (type png)
+ <use graph/a_reg4.png>
+Package pdftex.def Info: graph/a_reg4.png used on input line 371.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/m_reg4.png, id=63, 477.2229pt x 476.5002pt>
+File: graph/m_reg4.png Graphic file (type png)
+ <use graph/m_reg4.png>
+Package pdftex.def Info: graph/m_reg4.png used on input line 375.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/aapl_reg_4.png, id=64, 643.40375pt x 359.3425pt>
+File: graph/aapl_reg_4.png Graphic file (type png)
+
+<use graph/aapl_reg_4.png>
+Package pdftex.def Info: graph/aapl_reg_4.png used on input line 386.
+(pdftex.def)             Requested size: 192.40036pt x 107.45265pt.
+
+<graph/msft_reg_4.png, id=65, 645.41125pt x 372.39125pt>
+File: graph/msft_reg_4.png Graphic file (type png)
+
+<use graph/msft_reg_4.png>
+Package pdftex.def Info: graph/msft_reg_4.png used on input line 390.
+(pdftex.def)             Requested size: 192.40036pt x 111.00795pt.
+ <graph/AAPL5.png, id=66, 477.2229pt x 476.5002pt>
+File: graph/AAPL5.png Graphic file (type png)
+
+<use graph/AAPL5.png>
+Package pdftex.def Info: graph/AAPL5.png used on input line 404.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+ <graph/MSFT5.png, id=67, 477.2229pt x 476.5002pt>
+File: graph/MSFT5.png Graphic file (type png)
+
+<use graph/MSFT5.png>
+Package pdftex.def Info: graph/MSFT5.png used on input line 408.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+ [7 <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/AAPL3.
+png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/MSFT3
+.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/cor3
+.png (PNG copy)>]
+<graph/cor5.png, id=74, 496.85625pt x 104.39pt>
+File: graph/cor5.png Graphic file (type png)
+ <use graph/cor5.png>
+Package pdftex.def Info: graph/cor5.png used on input line 419.
+(pdftex.def)             Requested size: 334.60571pt x 70.30249pt.
+
+<graph/a_reg5.png, id=75, 477.2229pt x 476.5002pt>
+File: graph/a_reg5.png Graphic file (type png)
+ <use graph/a_reg5.png>
+Package pdftex.def Info: graph/a_reg5.png used on input line 433.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/m_reg5.png, id=76, 477.2229pt x 476.5002pt>
+File: graph/m_reg5.png Graphic file (type png)
+ <use graph/m_reg5.png>
+Package pdftex.def Info: graph/m_reg5.png used on input line 437.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/aapl_reg_5.png, id=77, 634.37pt x 356.33125pt>
+File: graph/aapl_reg_5.png Graphic file (type png)
+
+<use graph/aapl_reg_5.png>
+Package pdftex.def Info: graph/aapl_reg_5.png used on input line 448.
+(pdftex.def)             Requested size: 192.40036pt x 108.06918pt.
+
+<graph/msft_reg_5.png, id=78, 639.38875pt x 361.35pt>
+File: graph/msft_reg_5.png Graphic file (type png)
+
+<use graph/msft_reg_5.png>
+Package pdftex.def Info: graph/msft_reg_5.png used on input line 452.
+(pdftex.def)             Requested size: 192.40036pt x 108.73666pt.
+ [8 <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/a_reg3
+.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/m_re
+g3.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/aa
+pl_reg_3.png (PNG copy)> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/
+project2/graph/msft_reg_3.png (PNG copy)>]
+<graph/AAPL6.png, id=84, 477.2229pt x 476.5002pt>
+File: graph/AAPL6.png Graphic file (type png)
+ <use graph/AAPL6.png>
+Package pdftex.def Info: graph/AAPL6.png used on input line 465.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/MSFT6.png, id=85, 477.2229pt x 476.5002pt>
+File: graph/MSFT6.png Graphic file (type png)
+ <use graph/MSFT6.png>
+Package pdftex.def Info: graph/MSFT6.png used on input line 469.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/cor6.png, id=86, 451.6875pt x 99.37125pt>
+File: graph/cor6.png Graphic file (type png)
+ <use graph/cor6.png>
+Package pdftex.def Info: graph/cor6.png used on input line 480.
+(pdftex.def)             Requested size: 334.60571pt x 73.61696pt.
+
+<graph/a_reg6.png, id=87, 477.2229pt x 476.5002pt>
+File: graph/a_reg6.png Graphic file (type png)
+ <use graph/a_reg6.png>
+Package pdftex.def Info: graph/a_reg6.png used on input line 494.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/m_reg6.png, id=88, 477.2229pt x 476.5002pt>
+File: graph/m_reg6.png Graphic file (type png)
+ <use graph/m_reg6.png>
+Package pdftex.def Info: graph/m_reg6.png used on input line 498.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/aapl_reg_6.png, id=89, 654.445pt x 355.3275pt>
+File: graph/aapl_reg_6.png Graphic file (type png)
+
+<use graph/aapl_reg_6.png>
+Package pdftex.def Info: graph/aapl_reg_6.png used on input line 509.
+(pdftex.def)             Requested size: 192.40036pt x 104.46284pt.
+
+<graph/msft_reg_6.png, id=90, 644.4075pt x 359.3425pt>
+File: graph/msft_reg_6.png Graphic file (type png)
+
+<use graph/msft_reg_6.png>
+Package pdftex.def Info: graph/msft_reg_6.png used on input line 513.
+(pdftex.def)             Requested size: 192.40036pt x 107.28816pt.
+ [9 <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/AAPL4.
+png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/MSFT4
+.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/cor4
+.png (PNG copy)>]
+<graph/AAPL7.png, id=96, 477.2229pt x 476.5002pt>
+File: graph/AAPL7.png Graphic file (type png)
+ <use graph/AAPL7.png>
+Package pdftex.def Info: graph/AAPL7.png used on input line 527.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/MSFT7.png, id=97, 477.2229pt x 476.5002pt>
+File: graph/MSFT7.png Graphic file (type png)
+ <use graph/MSFT7.png>
+Package pdftex.def Info: graph/MSFT7.png used on input line 531.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/cor7.png, id=98, 500.87125pt x 99.37125pt>
+File: graph/cor7.png Graphic file (type png)
+ <use graph/cor7.png>
+Package pdftex.def Info: graph/cor7.png used on input line 542.
+(pdftex.def)             Requested size: 334.60571pt x 66.38733pt.
+ [10 <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/a_reg
+4.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/m_r
+eg4.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/a
+apl_reg_4.png (PNG copy)> <C:/Users/lemleyj/Desktop/Math class 2016/assignments
+/project2/graph/msft_reg_4.png (PNG copy)>]
+<graph/a_reg7.png, id=104, 477.2229pt x 476.5002pt>
+File: graph/a_reg7.png Graphic file (type png)
+ <use graph/a_reg7.png>
+Package pdftex.def Info: graph/a_reg7.png used on input line 556.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/m_reg7.png, id=105, 477.2229pt x 476.5002pt>
+File: graph/m_reg7.png Graphic file (type png)
+ <use graph/m_reg7.png>
+Package pdftex.def Info: graph/m_reg7.png used on input line 560.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/aapl_reg_7.png, id=106, 652.4375pt x 354.32375pt>
+File: graph/aapl_reg_7.png Graphic file (type png)
+
+<use graph/aapl_reg_7.png>
+Package pdftex.def Info: graph/aapl_reg_7.png used on input line 571.
+(pdftex.def)             Requested size: 192.40036pt x 104.48674pt.
+
+<graph/msft_reg_7.png, id=107, 630.355pt x 351.3125pt>
+File: graph/msft_reg_7.png Graphic file (type png)
+
+<use graph/msft_reg_7.png>
+Package pdftex.def Info: graph/msft_reg_7.png used on input line 575.
+(pdftex.def)             Requested size: 192.40036pt x 107.22787pt.
+ <graph/AAPL8.png, id=108, 477.2229pt x 476.5002pt>
+File: graph/AAPL8.png Graphic file (type png)
+
+<use graph/AAPL8.png>
+Package pdftex.def Info: graph/AAPL8.png used on input line 590.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+ <graph/MSFT8.png, id=109, 477.2229pt x 476.5002pt>
+File: graph/MSFT8.png Graphic file (type png)
+
+<use graph/MSFT8.png>
+Package pdftex.def Info: graph/MSFT8.png used on input line 594.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+ <graph/cor8.png, id=110, 457.71pt x 104.39pt>
+File: graph/cor8.png Graphic file (type png)
+
+<use graph/cor8.png>
+Package pdftex.def Info: graph/cor8.png used on input line 605.
+(pdftex.def)             Requested size: 334.60571pt x 76.31555pt.
+ [11 <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/AAPL5
+.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/MSFT
+5.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/cor
+5.png (PNG copy)>]
+<graph/a_reg8.png, id=116, 477.2229pt x 476.5002pt>
+File: graph/a_reg8.png Graphic file (type png)
+ <use graph/a_reg8.png>
+Package pdftex.def Info: graph/a_reg8.png used on input line 619.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/m_reg8.png, id=117, 477.2229pt x 476.5002pt>
+File: graph/m_reg8.png Graphic file (type png)
+ <use graph/m_reg8.png>
+Package pdftex.def Info: graph/m_reg8.png used on input line 623.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/aapl_reg_8.png, id=118, 637.38126pt x 351.3125pt>
+File: graph/aapl_reg_8.png Graphic file (type png)
+
+<use graph/aapl_reg_8.png>
+Package pdftex.def Info: graph/aapl_reg_8.png used on input line 634.
+(pdftex.def)             Requested size: 192.40036pt x 106.04318pt.
+
+<graph/msft_reg_8.png, id=119, 644.4075pt x 352.31625pt>
+File: graph/msft_reg_8.png Graphic file (type png)
+
+<use graph/msft_reg_8.png>
+Package pdftex.def Info: graph/msft_reg_8.png used on input line 638.
+(pdftex.def)             Requested size: 192.40036pt x 105.19035pt.
+ [12 <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/a_reg
+5.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/m_r
+eg5.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/a
+apl_reg_5.png (PNG copy)> <C:/Users/lemleyj/Desktop/Math class 2016/assignments
+/project2/graph/msft_reg_5.png (PNG copy)>]
+<graph/AAPL9.png, id=125, 477.2229pt x 476.5002pt>
+File: graph/AAPL9.png Graphic file (type png)
+ <use graph/AAPL9.png>
+Package pdftex.def Info: graph/AAPL9.png used on input line 653.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/MSFT9.png, id=126, 477.2229pt x 476.5002pt>
+File: graph/MSFT9.png Graphic file (type png)
+ <use graph/MSFT9.png>
+Package pdftex.def Info: graph/MSFT9.png used on input line 657.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/cor9.png, id=127, 290.88675pt x 62.03175pt>
+File: graph/cor9.png Graphic file (type png)
+ <use graph/cor9.png>
+Package pdftex.def Info: graph/cor9.png used on input line 668.
+(pdftex.def)             Requested size: 334.60571pt x 71.35677pt.
+
+<graph/a_reg9.png, id=128, 477.2229pt x 476.5002pt>
+File: graph/a_reg9.png Graphic file (type png)
+ <use graph/a_reg9.png>
+Package pdftex.def Info: graph/a_reg9.png used on input line 682.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/m_reg9.png, id=129, 477.2229pt x 476.5002pt>
+File: graph/m_reg9.png Graphic file (type png)
+ <use graph/m_reg9.png>
+Package pdftex.def Info: graph/m_reg9.png used on input line 686.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/aapl_reg_9.png, id=130, 390.258pt x 219.82124pt>
+File: graph/aapl_reg_9.png Graphic file (type png)
+
+<use graph/aapl_reg_9.png>
+Package pdftex.def Info: graph/aapl_reg_9.png used on input line 697.
+(pdftex.def)             Requested size: 192.40036pt x 108.37411pt.
+
+<graph/msft_reg_9.png, id=131, 380.01974pt x 216.81pt>
+File: graph/msft_reg_9.png Graphic file (type png)
+
+<use graph/msft_reg_9.png>
+Package pdftex.def Info: graph/msft_reg_9.png used on input line 701.
+(pdftex.def)             Requested size: 192.40036pt x 109.76772pt.
+ [13 <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/AAPL6
+.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/MSFT
+6.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/cor
+6.png (PNG copy)>]
+<graph/AAPL10.png, id=138, 477.2229pt x 476.5002pt>
+File: graph/AAPL10.png Graphic file (type png)
+ <use graph/AAPL10.png>
+Package pdftex.def Info: graph/AAPL10.png used on input line 715.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/MSFT10.png, id=139, 477.2229pt x 476.5002pt>
+File: graph/MSFT10.png Graphic file (type png)
+ <use graph/MSFT10.png>
+Package pdftex.def Info: graph/MSFT10.png used on input line 719.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/cor10.png, id=140, 554.07pt x 103.38625pt>
+File: graph/cor10.png Graphic file (type png)
+ <use graph/cor10.png>
+Package pdftex.def Info: graph/cor10.png used on input line 730.
+(pdftex.def)             Requested size: 334.60571pt x 62.43607pt.
+
+<graph/a_reg10.png, id=141, 477.2229pt x 476.5002pt>
+File: graph/a_reg10.png Graphic file (type png)
+ <use graph/a_reg10.png>
+Package pdftex.def Info: graph/a_reg10.png used on input line 744.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+<graph/m_reg10.png, id=142, 477.2229pt x 476.5002pt>
+File: graph/m_reg10.png Graphic file (type png)
+ <use graph/m_reg10.png>
+Package pdftex.def Info: graph/m_reg10.png used on input line 748.
+(pdftex.def)             Requested size: 192.40036pt x 192.10902pt.
+
+[14 <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/a_reg6
+.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/m_re
+g6.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/aa
+pl_reg_6.png (PNG copy)> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/
+project2/graph/msft_reg_6.png (PNG copy)>]
+<graph/aapl_reg_10.png, id=148, 645.41125pt x 364.36125pt>
+File: graph/aapl_reg_10.png Graphic file (type png)
+
+<use graph/aapl_reg_10.png>
+Package pdftex.def Info: graph/aapl_reg_10.png used on input line 759.
+(pdftex.def)             Requested size: 192.40036pt x 108.61424pt.
+
+<graph/msft_reg_10.png, id=149, 641.39626pt x 359.3425pt>
+File: graph/msft_reg_10.png Graphic file (type png)
+
+<use graph/msft_reg_10.png>
+Package pdftex.def Info: graph/msft_reg_10.png used on input line 763.
+(pdftex.def)             Requested size: 192.40036pt x 107.7926pt.
+ [15 <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/AAPL7
+.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/MSFT
+7.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/cor
+7.png (PNG copy)>]
+("C:\Users\lemleyj\Desktop\Math class 2016\assignments\project2\project1.bbl"
+
+LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
+               before end of `thebibliography' environment on input line 3.
+
+) [16 <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/a_re
+g7.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/m_
+reg7.png> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/
+aapl_reg_7.png (PNG copy)> <C:/Users/lemleyj/Desktop/Math class 2016/assignment
+s/project2/graph/msft_reg_7.png (PNG copy)>] [17 <C:/Users/lemleyj/Desktop/Math
+ class 2016/assignments/project2/graph/AAPL8.png> <C:/Users/lemleyj/Desktop/Mat
+h class 2016/assignments/project2/graph/MSFT8.png> <C:/Users/lemleyj/Desktop/Ma
+th class 2016/assignments/project2/graph/cor8.png (PNG copy)>] [18 <C:/Users/le
+mleyj/Desktop/Math class 2016/assignments/project2/graph/a_reg8.png> <C:/Users/
+lemleyj/Desktop/Math class 2016/assignments/project2/graph/m_reg8.png> <C:/User
+s/lemleyj/Desktop/Math class 2016/assignments/project2/graph/aapl_reg_8.png (PN
+G copy)> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/m
+sft_reg_8.png (PNG copy)>] [19 <C:/Users/lemleyj/Desktop/Math class 2016/assign
+ments/project2/graph/AAPL9.png> <C:/Users/lemleyj/Desktop/Math class 2016/assig
+nments/project2/graph/MSFT9.png> <C:/Users/lemleyj/Desktop/Math class 2016/assi
+gnments/project2/graph/cor9.png> <C:/Users/lemleyj/Desktop/Math class 2016/assi
+gnments/project2/graph/a_reg9.png> <C:/Users/lemleyj/Desktop/Math class 2016/as
+signments/project2/graph/m_reg9.png>] [20 <C:/Users/lemleyj/Desktop/Math class 
+2016/assignments/project2/graph/aapl_reg_9.png> <C:/Users/lemleyj/Desktop/Math 
+class 2016/assignments/project2/graph/msft_reg_9.png> <C:/Users/lemleyj/Desktop
+/Math class 2016/assignments/project2/graph/AAPL10.png> <C:/Users/lemleyj/Deskt
+op/Math class 2016/assignments/project2/graph/MSFT10.png> <C:/Users/lemleyj/Des
+ktop/Math class 2016/assignments/project2/graph/cor10.png (PNG copy)>] [21 <C:/
+Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/a_reg10.png> <
+C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/m_reg10.png
+> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/project2/graph/aapl_reg
+_10.png (PNG copy)> <C:/Users/lemleyj/Desktop/Math class 2016/assignments/proje
+ct2/graph/msft_reg_10.png (PNG copy)>]
+("C:\Users\lemleyj\Desktop\Math class 2016\assignments\project2\project1.aux")
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6480 strings out of 493921
+ 96767 string characters out of 3144869
+ 302235 words of memory out of 3000000
+ 9566 multiletter control sequences out of 15000+200000
+ 73164 words of font info for 83 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 43i,12n,51p,365b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\lemleyj\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
+0\ecsx1095.pk> <C:\Users\lemleyj\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\ecsx1000.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fo
+ntname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8
+a.pfb>
+Output written on project1.pdf (21 pages, 2464009 bytes).
+PDF statistics:
+ 271 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 351 words of extra memory for PDF output out of 10000 (max. 10000000)
+

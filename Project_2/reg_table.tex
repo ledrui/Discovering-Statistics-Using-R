@@ -1,0 +1,393 @@
+\documentclass{article}[14pt]
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{dtklogos}
+\usepackage{verbatim}
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{calrsfs}
+\usepackage{collectbox}
+\usepackage{multicol}
+\newcommand{\R}{{\mathbb R}}
+\renewcommand{\vec}[1]{{\mathbf #1}}
+\newcommand{\points}[1]{\phantom{.}\hfill \textbf{(#1 points)}}
+\newcommand{\matlab}{{\textsc{Matlab}} }
+
+\setlength{\columnsep}{2cm}
+
+\begin{document}
+
+
+
+\bigskip
+
+\begin{center}
+  \begin{Large}
+    Project 2\\
+    Reg table
+  \end{Large}
+\end{center} 
+\section{ 2011}
+
+\subsection{Jan - June}
+\subsection{AAPL}
+\begin{multicols}{2}
+\texttt{Call: \\
+lm(formula = AAPL.df\$AAPL.Close $\tilde{}$ date)\\
+Residuals:\\
+Min \hspace{35pt} 1Q \qquad Median \qquad 3Q \qquad  Max\\
+-20.584  \space -5.836 \space -1.212  \qquad 8.254  \qquad 18.250\\}
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 348.20967 1.59788 217.920   < 2e-16 ***|\\
+\verb|date        -0.07239  0.01523 -4.754     546e-06 ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 8.871 on 123 degrees of freedom|\\
+\verb|Multiple R-squared:  0.1552,	Adjusted R-squared:  0.1484|\\
+\verb|F-statistic: 22.6 on 1 and 123 DF,  p-value: 5.461e-06|
+
+\subsection{MSFT}
+\verb|Call:|\\
+\verb|lm(formula = MSFT.df$MSFT.Close ~ date)|
+\verb|Residuals:|\\
+\verb| Min      1Q      Median      3Q     Max |\\
+\verb|-1.64314 -0.47328 -0.05564  0.50645  2.09172|\\
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 28.195772   0.122016  231.08   <2e-16  ***|\\
+\verb|date        -0.023819   0.001163  -20.49   <2e-16  ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 0.6774 on 123 degrees of freedom|\\
+\verb|Multiple R-squared:  0.7734,	Adjusted R-squared:  0.7715|\\
+\verb|F-statistic: 419.8 on 1 and 123 DF,  p-value: < 2.2e-16|
+
+\end{multicols}
+
+\subsection{July - December}
+\subsection{AAPL}
+\texttt{Call: \\
+lm(formula = AAPL.df\$AAPL.Close $\tilde{}$ date)\\
+Residuals:\\
+Min \hspace{35pt} 1Q \qquad Median \qquad 3Q \qquad  Max\\
+-30.350   \space -9.997 \space -0.639  \qquad 10.834  \qquad 34.140\\}
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 373.61006    2.60261 143.552  < 2e-16  ***|\\
+\verb|date        0.13572     0.02467   5.501  2.04e-07 ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 14.56 on 125 degrees of freedom|\\
+\verb|Multiple R-squared:  0.1949,	Adjusted R-squared:  0.1885|\\
+\verb|F-statistic: 30.27 on 1 and 123 DF,  p-value: 2.038e-07|
+\subsection{MSFT}
+\verb|Call:|\\
+\verb|lm(formula = MSFT.df$MSFT.Close ~ date)|
+\verb|Residuals:|\\
+\verb| Min      1Q      Median      3Q     Max |\\
+\verb|-2.23936 -0.58976  0.03914  0.74489  1.76448  |\\
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 26.404567   0.156393 168.835   <2e-16  ***|\\
+\verb|date        -0.003562   0.001482  -2.403   0.0177 * |\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 0.8747 on 125 degrees of freedom|\\
+\verb|Multiple R-squared:  0.04414,	Adjusted R-squared:  0.0365|\\
+\verb|F-statistic: 5.773 on 1 and 125 DF,  p-value: 0.01775|
+\section{ 2012}
+
+\subsection{Jan - June}
+\subsection{AAPL}
+\texttt{Call: \\
+lm(formula = AAPL.df\$AAPL.Close $\tilde{}$ date)\\
+Residuals:\\
+Min \hspace{35pt} 1Q \qquad Median \qquad 3Q \qquad  Max\\
+-61.366  \space -34.644 \space -6.672  \qquad 28.714  \qquad 88.003\\}
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 461.36370    7.73048   59.68   <2e-16 ***|\\
+\verb|date        0.88750    0.07332   12.10    <2e-16  ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error:  42.74 on 123 degrees of freedom|\\
+\verb|Multiple R-squared:  0.5436,	Adjusted R-squared:  0.5399 |\\
+\verb|F-statistic:  146.5 on 1 and 123 DF,  p-value: < 2.2e-16|
+
+\subsection{MSFT}
+\verb|Call:|\\
+\verb|lm(formula = MSFT.df$MSFT.Close ~ date)|
+\verb|Residuals:|\\
+\verb| Min      1Q      Median      3Q     Max |\\
+\verb|-3.4623 -0.9275  0.0333     1.3432  2.3962   |\\
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 30.226163   0.252425 119.743   <2e-16 ***|\\
+\verb|date        0.003075   0.002394   1.285    0.201|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 1.395 on 123 degrees of freedom|\\
+\verb|Multiple R-squared:  0.01324,	Adjusted R-squared:  0.005215|\\
+\verb|F-statistic: 1.65 on 1 and 123 DF,  p-value: 0.2014|
+
+\subsection{July - December}
+\subsection{AAPL}
+\texttt{Call: \\
+lm(formula = AAPL.df\$AAPL.Close $\tilde{}$ date)\\
+Residuals:\\
+Min \hspace{35pt} 1Q \qquad Median \qquad 3Q \qquad  Max\\
+-71.748  \space -41.833 \space -4.425  \qquad 37.359   \qquad 86.605\\}
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 660.09874    7.85069  84.082  < 2e-16 ***|\\
+\verb|date         -0.55754    0.07557  -7.377 2.15e-11 ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 43.94 on 122 degrees of freedom|\\
+\verb|Multiple R-squared:  0.3085,	Adjusted R-squared:  0.3028 |\\
+\verb|F-statistic: 54.43 on 1 and 122 DF,  p-value: 2.154e-11|
+
+\subsection{MSFT}
+\verb|Call:|\\
+\verb|lm(formula = MSFT.df$MSFT.Close ~ date)|
+\verb|Residuals:|\\
+\verb| Min      1Q      Median      3Q     Max |\\
+\verb|-2.24043 -0.78367  0.00396  0.78122  2.10467 |\\
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 31.110083   0.173810  178.99   <2e-16 ***|\\
+\verb|date        -0.021787   0.001673  -13.02   <2e-16 ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 0.9728 on 122 degrees of freedom|\\
+\verb|Multiple R-squared:  0.5816,	Adjusted R-squared:  0.5781|\\
+\verb|F-statistic: 169.6 on 1 and 122 DF,  p-value: < 2.2e-16|
+
+\section{ 2013}
+
+\subsection{Jan - June}
+\subsection{AAPL}
+
+\texttt{Call: \\
+lm(formula = AAPL.df\$AAPL.Close $\tilde{}$ date)\\
+Residuals:\\
+Min \hspace{35pt} 1Q \qquad Median \qquad 3Q \qquad  Max\\
+-50.122  \space -18.123 \space -0.312  \qquad 17.593  \qquad 64.483\\}
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 484.95766    4.22671  114.74   <2e-16 ***|\\
+\verb|date        -0.41024    0.04058  -10.11   <2e-16 ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 23.41 on 122 degrees of freedom|\\
+\verb|Multiple R-squared:   0.4558,	Adjusted R-squared:  0.4514|\\
+\verb|F-statistic: 102.2 on 1 and 122 DF,  p-value: < 2.2e-16|
+
+\subsection{MSFT}
+\verb|Call:|\\
+\verb|lm(formula = MSFT.df$MSFT.Close ~ date)|
+\verb|Residuals:|\\
+\verb| Min      1Q      Median      3Q     Max |\\
+\verb|-2.4237 -1.1220  0.2174     1.0014  2.1917|\\
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 25.373761   0.217740  116.53   <2e-16 ***|\\
+\verb|date        0.054579   0.002091   26.11    <2e-16 ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 1.206 on 122 degrees of freedom|\\
+\verb|Multiple R-squared:  0.8482,	Adjusted R-squared:  0.8469|\\
+\verb|F-statistic: 681.6 on 1 and 122 DF,  p-value: < 2.2e-16|
+
+\subsection{July - December}
+\subsection{AAPL}
+\texttt{Call: \\
+lm(formula = AAPL.df\$AAPL.Close $\tilde{}$ date)\\
+Residuals:\\
+Min \hspace{35pt} 1Q \qquad Median \qquad 3Q \qquad  Max\\
+-36.260   \space -11.771 \space -3.285  \qquad 10.370  \qquad 42.375\\}
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 428.58840    2.88583  148.51   <2e-16  ***|\\
+\verb|date        0.75055    0.02773   27.06   <2e-16 ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 16.35 on 125 degrees of freedom|\\
+\verb|Multiple R-squared:  0.8542,	Adjusted R-squared:  0.8531|\\
+\verb|F-statistic: 732.5 on 1 and 125 DF,  p-value: < 2.2e-16|
+\subsection{MSFT}
+\verb|Call:|\\
+\verb|lm(formula = MSFT.df$MSFT.Close ~ date)|
+\verb|Residuals:|\\
+\verb| Min      1Q      Median      3Q     Max |\\
+\verb|-2.7039 -1.0700 -0.3028     1.1713  4.0789|\\
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 31.711446   0.272269  116.47   <2e-16 ***|\\
+\verb|date        0.031976   0.002616   12.22   <2e-16 ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 1.543 on 125 degrees of freedom|\\
+\verb|Multiple R-squared:  0.5444,	Adjusted R-squared:  0.5407|\\
+\verb|F-statistic: 149.4 on 1 and 125 DF,  p-value: < 2.2e-16|
+
+\section{ 2014}
+
+\subsection{Jan - June}
+\subsection{AAPL}
+
+\texttt{Call: \\
+lm(formula = AAPL.df\$AAPL.Close  $\tilde{}$ date)\\
+Residuals:\\
+Min \hspace{35pt} 1Q \qquad Median \qquad 3Q \qquad  Max\\
+-307.915  \space -54.767 \space 6.549  \qquad 75.249  \qquad 240.358\\}
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 615.3549    25.9727  23.692  < 2e-16 ***|\\
+\verb|date        -1.3443     0.2488  -5.403  3.3e-07 ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 143.4 on 122 degrees of freedom|\\
+\verb|Multiple R-squared:  0.1931,	Adjusted R-squared:  0.1865 |\\
+\verb|F-statistic: 29.19 on 1 and 122 DF,  p-value: 3.298e-07|
+
+\subsection{MSFT}
+\verb|Call:|\\
+\verb|lm(formula = MSFT.df$MSFT.Close ~ date)|
+\verb|Residuals:|\\
+\verb| Min      1Q      Median      3Q     Max |\\
+\verb|-1.46041 -0.54052 -0.08736  0.28590  2.41396 |\\
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 36.04570    0.13462  267.75   <2e-16 ***|\\
+\verb|date        0.03289     0.00129   25.51   <2e-16 ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 0.7435 on 122 degrees of freedom|\\
+\verb|Multiple R-squared:   0.8421,	Adjusted R-squared:  0.8408|\\
+\verb|F-statistic: 149.4 on 1 and 125 DF,  p-value: < 2.2e-16|
+
+\subsection{July - December}
+\subsection{AAPL}
+\texttt{Call: \\
+lm(formula = AAPL.df\$AAPL.Close $\tilde{}$ date)\\
+Residuals:\\
+Min \hspace{35pt} 1Q \qquad Median \qquad 3Q \qquad  Max\\
+-9.2139   \space -1.7646 \space -0.0648  \qquad 2.1004 \qquad 8.5046\\}
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 92.36904    0.59108  156.27   <2e-16 ***|\\
+\verb|date        0.12248    0.00566   21.64   <2e-16 ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 3.338 on 125 degrees of freedom|\\
+\verb|Multiple R-squared: 0.7893,	Adjusted R-squared:  0.7876|\\
+\verb|F-statistic: 468.3 on 1 and 125 DF,  p-value: < 2.2e-16|
+\subsection{MSFT}
+\verb|Call:|\\
+\verb|lm(formula = MSFT.df$MSFT.Close ~ date)|
+\verb|Residuals:|\\
+\verb| Min      1Q      Median      3Q     Max |\\
+\verb|-3.5401 -0.9211  0.1323     0.8929  2.4662 |\\
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 42.979319   0.221941  193.65   <2e-16 ***|\\
+\verb|date        0.030848   0.002125   14.52    <2e-16 ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 1.253 on 125 degrees of freedom|\\
+\verb|Multiple R-squared:  0.6277,	Adjusted R-squared:  0.6247|\\
+\verb|F-statistic: 210.7 on 1 and 125 DF,  p-value: < 2.2e-16|
+\section{ 2015}
+
+\subsection{Jan - June}
+\subsection{AAPL}
+
+\texttt{Call: \\
+lm(formula = AAPL.df\$AAPL.Close $\tilde{}$ date)\\
+Residuals:\\
+Min \hspace{35pt} 1Q \qquad Median \qquad 3Q \qquad  Max\\
+-11.400   \space -3.201 \space 0.451  \qquad 2.501  \qquad 12.107\\}
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 1.160e+02  8.803e-01  131.78   <2e-16  ***|\\
+\verb|date        9.219e-02  8.393e-03   10.98   <2e-16 ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 4.839 on 122 degrees of freedom|\\
+\verb|Multiple R-squared:  0.1931,	Adjusted R-squared:  0.1865 |\\
+\verb|F-statistic: 120.6 on 1 and 122 DF,  p-value: < 2.2e-16|
+
+\subsection{MSFT}
+\verb|Call:|\\
+\verb|lm(formula = MSFT.df$MSFT.Close ~ date)|
+\verb|Residuals:|\\
+\verb| Min      1Q      Median      3Q     Max |\\
+\verb|-4.3056 -1.9056 -0.0607  2.1388  4.3641 |\\
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept)43.111742   0.424893  101.465  < 2e-16 ***|\\
+\verb|date       0.016306   0.004051   4.025   9.92e-05 ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 2.336 on 122 degrees of freedom|\\
+\verb|Multiple R-squared:  0.1172,	Adjusted R-squared:   0.11 |\\
+\verb|F-statistic: 16.2 on 1 and 122 DF,  p-value: 9.925e-05|
+
+\subsection{July - December}
+\subsection{AAPL}
+\texttt{Call: \\
+lm(formula = AAPL.df\$AAPL.Close $\tilde{}$ date)\\
+Residuals:\\
+Min \hspace{35pt} 1Q \qquad Median \qquad 3Q \qquad  Max\\
+-14.6668   \space -3.7463 \space -0.0648  \qquad 2.1004 \qquad 8.5046\\}
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept) 120.58172    0.92838 129.884  < 2e-16***|\\
+\verb|date        -0.05176    0.00886  -5.842  4.2e-08 ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 5.229 on 125 degrees of freedom|\\
+\verb|Multiple R-squared: 0.7893,	Adjusted R-squared:  0.7876|\\
+\verb|F-statistic: 34.12 on 1 and 125 DF,  p-value: 4.204e-08|
+\subsection{MSFT}
+
+\verb|Call:|\\
+\verb|lm(formula = MSFT.df$MSFT.Close ~ date)|
+\verb|Residuals:|\\
+\verb| Min      1Q      Median      3Q     Max |\\
+\verb|-5.621 -2.668    1.227       1.987  3.754  |\\
+\verb| |\\
+\verb|Coefficients:|\\
+\verb|            Estimate  Std.Error  t value  Pr( t)|\\
+\verb|(Intercept)42.060826   0.482157   87.23   <2e-16 ***|\\
+\verb|date       0.073270    0.004602    15.92  <2e-16 ***|\\
+\verb|----|\\
+\verb|Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1|\\
+\verb|Residual standard error: 2.716 on 125 degrees of freedom|\\
+\verb|Multiple R-squared:  0.6698,	Adjusted R-squared:  0.6671 |\\
+\verb|F-statistic: 253.5 on 1 and 125 DF,  p-value: < 2.2e-16|
+
+\end{document}
